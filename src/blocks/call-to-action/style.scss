@@ -1,0 +1,57 @@
+/**
+ * #.# Styles
+ *
+ * CSS for both Frontend+Backend.
+ */
+
+.wp-block-gutenbergpack-block-call-to-action {
+    margin: 0 auto;
+    max-width: 740px;
+}
+
+.gutenbergpack_call_to_action {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0 60px;
+    margin: 30px 0 60px 0;
+}
+
+.gutenbergpack_call_to_action_headline {
+    width: 100%;
+    padding: 20px 20px 10px 20px;
+}
+
+.gutenbergpack_call_to_action_headline p {
+    text-align: center;
+    margin: 0;
+    padding: 20px 20px 0 20px;
+}
+
+.gutenbergpack_call_to_action_content {
+    width: 100%;
+    padding: 0 0 15px 0;
+}
+
+.gutenbergpack_call_to_action_content p {
+    text-align: justify;
+}
+
+.gutenbergpack_call_to_action_button {
+    display: flex;
+    align-items: center;
+}
+
+.gutenbergpack_cta_button {
+    margin-bottom: -31px !important;
+    padding: 20px !important;
+    position: relative;
+    box-sizing: border-box;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.gutenbergpack_cta_button_text {
+    margin: 0 !important;
+    text-align: center;
+}

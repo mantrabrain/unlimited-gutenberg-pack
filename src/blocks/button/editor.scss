@@ -1,0 +1,27 @@
+/**
+ * #.# Editor Styles
+ *
+ * CSS for just Backend enqueued after style.scss
+ * which makes it higher in priority.
+ */
+.wp-block-gutenbergpack-button-block {
+	margin: 0 auto;
+	max-width: 100%;
+}
+
+.gutenbergpack_button_url_input {
+	display: flex;
+	align-items: center;
+	margin-top: 5px;
+}
+
+.gutenbergpack_button_input_box {
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	box-sizing: border-box;
+}
+
+.flex-container {
+	display: flex;
+}

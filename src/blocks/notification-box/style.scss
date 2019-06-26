@@ -1,0 +1,41 @@
+/**
+ * #.# Styles
+ *
+ * CSS for both Frontend+Backend.
+ */
+
+.wp-block-gutenbergpack-block-notification-box  {
+  background: $red;
+  border: 0.2rem solid $black;
+  color: $black;
+  margin: 0 auto;
+  max-width: 740px;
+  padding: 2rem;
+}
+
+.gutenbergpack_notify_info, .gutenbergpack_notify_success, .gutenbergpack_notify_warning {
+  margin: 10px 0px;
+  padding: 15px;
+
+}
+.gutenbergpack_notify_info {
+  color: #31708F !important;
+  background-color: #D9EDF7;
+  border-left: 4px solid #31708F;
+}
+
+.gutenbergpack_notify_success {
+  color: #3C763D !important;
+  background-color: #DFF0D8;
+  border-left: 4px solid #3C763D;
+}
+
+.gutenbergpack_notify_warning {
+  color: #D8000C !important;
+  background-color: #FFD2D2;
+  border-left: 4px solid #D8000C;
+}
+
+.gutenbergpack_notify_text {
+  margin: 0 auto !important;
+}

@@ -1,0 +1,113 @@
+/**
+ * #.# Styles
+ *
+ * CSS for Backend only.
+ */
+.testimonial-sample2{
+	background: #bfbfbf;
+	padding:50px 0;
+	h1 {
+		margin-bottom: 60px;
+		text-transform: uppercase;
+		font-weight: 500;
+		text-align: center;;
+	}
+	.testimonial{
+		outline:none;
+		margin: 0 20px 40px;
+		.testimonial-content{
+			padding: 35px 25px 35px 50px;
+			margin-bottom: 35px;
+			background: #fff;
+			border: 1px solid #f0f0f0;
+			position: relative;
+			&:after{
+				content: "";
+				display: inline-block;
+				width: 20px;
+				height: 20px;
+				background: #fff;
+				position: absolute;
+				bottom: -10px;
+				left: 22px;
+				transform: rotate(45deg);
+			}
+			.testimonial-icon{
+				width: 50px;
+				height: 45px;
+				background: #ff5722;
+				text-align: center;
+				font-size: 22px;
+				color: #fff;
+				line-height: 42px;
+				position: absolute;
+				top: 37px;
+				left: -19px;
+				&:before{
+					content: "";
+					border-bottom: 16px solid #d03605;
+					border-left: 18px solid transparent;
+					position: absolute;
+					top: -16px;
+					left: 1px;
+				}
+			}
+		}
+		.description{
+			font-size: 15px;
+			font-style: italic;
+			color: #8a8a8a;
+			line-height: 23px;
+			margin: 0;
+		}
+		.title{
+			display: block;
+			font-size: 18px;
+			font-weight: 700;
+			color: #525252;
+			text-transform: capitalize;
+			letter-spacing: 1px;
+			margin: 0 0 5px 0;
+		}
+		.post{
+			display: block;
+			font-size: 14px;
+			color: #ff5722;
+		}
+
+	}
+	.slick-dots {
+		text-align: center;
+		font-size: 20px;
+		margin:0 auto;
+		padding-left: 0;
+		z-index: 9;
+		margin-top: 5px;
+
+		li {
+			display: inline-block;
+			width: 12px;
+			height: 12px;
+			background: #444;
+			border-radius: 50%;
+			margin-right: 10px;
+			button {
+				display: none;
+			}
+		}
+		.slick-active {
+			background: #ff5722;
+		}
+
+	}
+
+
+}
+
+
+
+
+
+
+
+

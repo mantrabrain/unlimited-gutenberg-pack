@@ -1,0 +1,40 @@
+/**
+ * #.# Styles
+ *
+ * CSS for both Frontend+Backend.
+ */
+
+.wp-block-gutenbergpack-tabbed-content {
+    margin: 30px 0;
+}
+
+.wp-block-gutenbergpack-tabbed-content-holder {
+    .blocks-rich-text__tinymce.mce-content-body {
+        font-size: 14px;
+    }
+}
+
+.wp-block-gutenbergpack-tabbed-content-tabs-title {
+    display: flex;
+}
+
+.wp-block-gutenbergpack-tabbed-content-tab-title-wrap {
+    border: 1px solid lightgrey;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    padding: 10px 15px;
+    border-bottom: 0;
+    margin-right: 5px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+    &.active {
+        color: white;
+    }
+}
+
+.wp-block-gutenbergpack-tabbed-content-tabs-content {
+    border: 1px solid lightgrey;
+    padding: 25px;
+}
