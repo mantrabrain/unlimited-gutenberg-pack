@@ -9,7 +9,7 @@
         "pot": "wp-pot --src '**/*.php' --dest-file 'languages/gutenberg-pack.pot' --package 'Gutenberg_Pack' --domain 'gutenberg-pack' --last-translator 'Gutenberg Pack <contact@gutenbergpack.com>' --team 'Gutenberg Pack <contact@gutenbergpack.com>'"
     },
     "dependencies": {
-        "ajv": ">=6.0.0",
+        "ajv": ">=6.12.3",
         "cgb-scripts": "1.13.0",
         "grunt-checktextdomain": "^1.0.1",
         "grunt-cli": "^1.3.2",
