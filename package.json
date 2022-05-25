@@ -22,7 +22,7 @@
     },
     "devDependencies": {
         "classnames": "^2.2.5",
-        "grunt": "^1.0.3",
+        "grunt": "^1.5.3",
         "gulp": "^3.9.1",
         "gulp-notify": "^3.0.0",
         "gulp-sort": "^2.0.0",
